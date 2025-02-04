@@ -1,16 +1,3 @@
-/*import { IsNotEmpty, IsOptional, IsString } from 'class-validator';
-
-export class CreateTaskDto {
-  @IsNotEmpty()
-  @IsString()
-  title: string;
-
-  @IsOptional()
-  @IsString()
-  description?: string;
-}*/
-
-// src/modules/tasks/application/dto/create-task.dto.ts
 import { IsNotEmpty, IsOptional, IsString } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 

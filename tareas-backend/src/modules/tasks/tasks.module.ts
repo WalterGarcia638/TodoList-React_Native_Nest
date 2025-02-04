@@ -1,4 +1,3 @@
-// src/modules/tasks/tasks.module.ts
 import { Module } from '@nestjs/common';
 import { TasksService } from './application/services/tasks.service';
 import { TasksController } from './infrastructure/controllers/tasks.controller';

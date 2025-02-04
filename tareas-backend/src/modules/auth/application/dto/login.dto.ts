@@ -1,14 +1,3 @@
-/*import { IsEmail, IsNotEmpty } from 'class-validator';
-
-export class LoginDto {
-  @IsEmail()
-  email: string;
-
-  @IsNotEmpty()
-  password: string;
-}*/
-
-// src/modules/auth/application/dto/login.dto.ts
 import { IsEmail, IsNotEmpty } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 

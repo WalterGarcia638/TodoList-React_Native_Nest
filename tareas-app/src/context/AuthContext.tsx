@@ -1,4 +1,3 @@
-// src/context/AuthContext.tsx
 import React, { createContext, useState, ReactNode } from 'react';
 import { login as loginService, register as registerService } from '../services/authService';
 

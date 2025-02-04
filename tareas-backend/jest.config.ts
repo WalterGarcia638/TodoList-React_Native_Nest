@@ -1,10 +1,9 @@
-// jest.config.ts
 export default {
-    preset: 'ts-jest', // Si usas TypeScript
-    testMatch: ['**/*.spec.ts'], // Busca tests en cualquier subdirectorio
+    preset: 'ts-jest',
+    testMatch: ['**/*.spec.ts'], 
     moduleFileExtensions: ['ts', 'js', 'json', 'node'],
     moduleNameMapper: {
-        "^src/(.*)$": "<rootDir>/src/$1", // Mapeo para importaciones absolutas
+        "^src/(.*)$": "<rootDir>/src/$1", 
     },
     collectCoverageFrom: ['**/*.(t|j)s'],
     coverageDirectory: '../coverage',

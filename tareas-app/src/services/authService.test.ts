@@ -1,9 +1,8 @@
-
 import apiClient from './apiClient';
 import { login, register } from './authService';
 
 
-// Mock del apiClient
+
 jest.mock('@services/apiClient', () => ({
   post: jest.fn(),
 }));

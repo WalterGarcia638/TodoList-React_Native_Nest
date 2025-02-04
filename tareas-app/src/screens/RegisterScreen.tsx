@@ -1,4 +1,3 @@
-// src/screens/RegisterScreen.tsx
 import React, { useState, useContext } from 'react';
 import { View, Text, TextInput, StyleSheet, Button, Alert } from 'react-native';
 import { AuthContext } from '../context/AuthContext';

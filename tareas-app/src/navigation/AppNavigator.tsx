@@ -1,4 +1,3 @@
-// src/navigation/AppNavigator.tsx
 import React, { useContext } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import RegisterScreen from '../screens/RegisterScreen';

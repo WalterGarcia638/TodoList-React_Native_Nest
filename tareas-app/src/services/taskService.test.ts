@@ -2,8 +2,6 @@ import { Task } from "../context/TaskContext";
 import apiClient from "./apiClient";
 import { createTask, deleteTask, fetchTasks, updateTask } from "./taskService";
 
-
-// Mock del apiClient
 jest.mock('@services/apiClient', () => ({
   get: jest.fn(),
   post: jest.fn(),

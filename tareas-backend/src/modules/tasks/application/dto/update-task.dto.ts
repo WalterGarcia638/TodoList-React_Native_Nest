@@ -1,20 +1,3 @@
-/*import { IsOptional, IsString, IsBoolean } from 'class-validator';
-
-export class UpdateTaskDto {
-  @IsOptional()
-  @IsString()
-  title?: string;
-
-  @IsOptional()
-  @IsString()
-  description?: string;
-
-  @IsOptional()
-  @IsBoolean()
-  completed?: boolean;
-}*/
-
-// src/modules/tasks/application/dto/update-task.dto.ts
 import { IsOptional, IsString, IsBoolean } from 'class-validator';
 import { ApiPropertyOptional } from '@nestjs/swagger';
 

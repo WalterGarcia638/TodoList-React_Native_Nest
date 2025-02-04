@@ -1,4 +1,3 @@
-// src/services/authService.ts
 import apiClient from './apiClient';
 
 interface AuthResponse {

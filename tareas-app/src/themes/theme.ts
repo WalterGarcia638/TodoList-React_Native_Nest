@@ -1,17 +1,31 @@
-// src/themes/theme.ts
 export const lightTheme = {
-    background: '#ffffff',
-    text: '#000000',
-    inputBackground: '#f2f2f2',
-    buttonBackground: '#007bff',
-    buttonText: '#ffffff',
-  };
-  
-  export const darkTheme = {
-    background: '#000000',
-    text: '#ffffff',
-    inputBackground: '#333333',
-    buttonBackground: '#1a73e8',
-    buttonText: '#ffffff',
-  };
-  
+  background: '#F4F7F6',
+  text: '#333',
+  headerText: '#fff',
+  cardBackground: '#fff',
+  buttonBackground: '#4A90E2',
+  buttonText: '#fff',
+  inputBackground: '#F4F7F6',
+  inputText: '#333',
+  placeholder: '#999',
+  checkboxActive: '#4A90E2',
+  checkboxInactive: '#ccc',
+  subtext: '#666', 
+  cancelButtonBackground: '#FF6347', 
+};
+
+export const darkTheme = {
+  background: '#121212',
+  text: '#E0E0E0',
+  headerText: '#E0E0E0',
+  cardBackground: '#1E1E1E',
+  buttonBackground: '#BB86FC',
+  buttonText: '#121212',
+  inputBackground: '#1E1E1E',
+  inputText: '#E0E0E0',
+  placeholder: '#999',
+  checkboxActive: '#BB86FC',
+  checkboxInactive: '#666',
+  subtext: '#B0B0B0', 
+  cancelButtonBackground: '#CF6679', 
+};

@@ -11,12 +11,12 @@ async function bootstrap() {
 
   app.enableCors();
 
-   // Configuración de Swagger
+
    const swaggerConfig = new DocumentBuilder()
    .setTitle('API de Tareas')
    .setDescription('API para la gestión colaborativa de tareas')
    .setVersion('1.0')
-   // Si usas autenticación JWT, puedes añadir la configuración del bearer token:
+
    .addBearerAuth({
      type: 'http',
      scheme: 'bearer',
@@ -27,9 +27,9 @@ async function bootstrap() {
 
  const document = SwaggerModule.createDocument(app, swaggerConfig);
  
- // Configura Swagger en la raíz ('/') para que al acceder se muestre directamente Swagger
+
  SwaggerModule.setup('/', app, document, {
-   customSiteTitle: 'API de Tareas', // Título de la pestaña en el navegador
+   customSiteTitle: 'API de Tareas',
  });
 
 
